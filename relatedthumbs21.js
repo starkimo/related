@@ -77,7 +77,7 @@ var i = 0;
 
 if(relatedTitles.length>0) document.write('<h2>'+relatedpoststitle+'</h2>');
 document.write('<div style="clear: both;"/>');
-while (i < relatedTitles.length && i < 20 && i<maxresults) {
+while (i < relatedTitles.length && i < 30 && i<maxresults) {
 
 
 document.write('<a style="text-decoration:none;padding:5px;float:left;');
