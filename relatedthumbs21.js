@@ -21,7 +21,7 @@ thumburl[relatedTitlesNum]=d;} else thumburl[relatedTitlesNum]='http://1.bp.blog
 
 }
 
-if(relatedTitles[relatedTitlesNum].length>40) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 40)+"...";
+if(relatedTitles[relatedTitlesNum].length>45) relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0, 45)+"...";
 for (var k = 0; k < entry.link.length; k++) {
 if (entry.link[k].rel == 'alternate') {
 relatedUrls[relatedTitlesNum] = entry.link[k].href;
